@@ -178,10 +178,10 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        int key = 0;
+        int key = 1;
         for (int number :  arr) {
-            key ++;
-            current_sum += key % 2 * number;
+            key++;
+            current_sum +=key % 2 * number;
 
         }
         return current_sum;
